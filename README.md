@@ -1,5 +1,3 @@
-# swagger-capture-middleware
-
 # Express API with Swagger Integration
 
 This project is a simple Express.js application with a POST endpoint `/api/user` to create users, integrated with Swagger for API documentation. It also includes middleware to log request data.
