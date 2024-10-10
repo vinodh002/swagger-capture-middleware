@@ -47,7 +47,6 @@ app.listen(PORT, () => {
 // Simulate sending data to the endpoints
 function simulateRequests() {
     const axios = require('axios');
-
     // Dummy POST request to /api/user
     axios.post(`http://localhost:${PORT}/api/user`, {
         name: 'Don Lee',
